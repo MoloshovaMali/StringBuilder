@@ -6,21 +6,6 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) throws IOException {
 
-//        String s="Jaava";
-//        String a="Jaava";
-//        System.out.println(a==s);
-//        System.out.println(args.equals(a));
-//        StringBuilder builder=new StringBuilder("java");
-//         builder.append(" hello") ;
-//        System.out.println(builder);
-
-//        StringBuilder word=new StringBuilder();
-//        int []nums={1,2,3,4,5};
-//        for (int i = 0; i <nums.length; i++) {
-//            word.append(nums[i]);
-//        }
-//        System.out.println(word);
-//        FileWriter fileWriter=new FileWriter("java");
         Song song = new Song();
         FileWriter fileWriter = new FileWriter("song");
         StringBuilder stringBuilder=new StringBuilder();
